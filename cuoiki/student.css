@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    min-height: 100vh;
+    font: 1.2rem Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4D44B5;
+}
+
+.leftmenu {
+    flex: 0.25;
+    background-color: #4D44B5;
+}
+
+.logo {
+    display: flex;
+    color: aliceblue;
+    margin-top: 50px;
+    border-radius: 16px;
+    margin-left: 46px;
+    gap: 16px;
+
+}
+.page{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #A098AE;
+
+}
+.A {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    background: #FB7D5B;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.Ak {
+    font-size: 36px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.listoption {
+    margin-left: auto;
+    width: 83%;
+}
+
+.list {
+    margin-top: 46px;
+}
+
+.Dashboard{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    gap: 15px;
+    display: flex;
+    height: 64px;
+    padding: 15px;
+    border-radius: 999em 40px 40px 999em;
+    background: #4D44B5;
+    color: aliceblue;
+    font-size: medium;
+    flex-direction: center;
+    align-items: center;
+}
+
+.Dashboard:hover {
+    background: aliceblue;
+    color: #4D44B5;
+    transition: 0.8s;
+}
+
+a{
+    text-decoration: none;
+}
+.Dashboard:active {
+
+    background: aliceblue;
+    color: #4D44B5;
+    transition: 0.8s;
+}
+button :hover{
+    cursor: pointer;
+}
+.container-content {
+    display: flex;
+    background-color: #4D44B51A;
+    flex: 1;
+}
+.content{
+    width: 80%;
+}
+.img-btn{
+    border: 0 solid #FFFFFF;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+.inforuser{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 70%;
+}
+.btn-add-student{
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+
+}
+input:hover{
+    cursor: pointer;
+}
+.btn-add-student:hover{
+    background-color: #4D44B5;
+}
+button:hover{
+    background-color: #4D44B5;
+}
+
+

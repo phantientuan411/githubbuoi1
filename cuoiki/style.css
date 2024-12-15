@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    min-height: 100vh;
+    font: 1.2rem Roboto, sans-serif;
+    line-height: 1.5;
+    color: #4D44B5;
+}
+
+.leftmenu {
+    flex: 0.25;
+    background-color: #4D44B5;
+}
+
+.logo {
+    display: flex;
+    color: aliceblue;
+    margin-top: 50px;
+    border-radius: 16px;
+    margin-left: 46px;
+    gap: 16px;
+
+}
+
+.A {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    background: #FB7D5B;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.Ak {
+    font-size: 36px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.listoption {
+    margin-left: auto;
+    width: 83%;
+}
+
+.list {
+    margin-top: 46px;
+}
+
+.Dashboard{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    gap: 15px;
+    display: flex;
+    height: 64px;
+    padding: 15px;
+    border-radius: 999em 40px 40px 999em;
+    background: #4D44B5;
+    color: aliceblue;
+    font-size: medium;
+    flex-direction: center;
+    align-items: center;
+}
+
+.Dashboard:hover {
+    background: aliceblue;
+    color: #4D44B5;
+    transition: 0.8s;
+}
+
+
+.Dashboard:active {
+
+    background: aliceblue;
+    color: #4D44B5;
+    transition: 0.8s;
+}
+button :hover{
+    cursor: pointer;
+}
+
+.container-content {
+    display: flex;
+    background-color: #4D44B51A;
+    flex: 1;
+}
+.content{
+    width: 80%;
+}
+.contentlogo {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #303972;
+}
+.unpaidstudent{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+.overview {
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 14px;
+    height: 172px;
+
+}
+
+.calendarandfinace {
+    display: flex;
+    gap: 40px;
+}
+.unpaid{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    gap: 50px;
+    align-items: center;
+}
+.schoolperform {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.page{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #A098AE;
+
+}
+.searchbox{
+    gap: 20px;
+    width: 350px;
+    height: 60px;
+    border-radius: 14px 14px 14px 14px;
+    display: flex;
+    background-color: #FFFFFF;
+    margin-left: 70%;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.icon-overview {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.foodimg{
+    width: 312px;
+    height: 160px;
+    border-radius: 16px;
+}
+.rightmenu {
+    display: flex;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    flex-direction: column;
+}
+.imgfood{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.foodmenu{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.recentstudent{
+    display: flex;
+    flex-direction: column;
+
+}
+.notice{
+    display: flex;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    gap: 15px;
+}
+.mail{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #A098AE;
+    margin-left: 10%;
+}
+.mail:hover{
+    background-color: #4D44B5;
+    color: #FFFFFF;
+}
+.nameandbtn{
+    display: flex;
+    border-radius: 50px;
+}
+.infor{
+    display: flex;
+    flex-direction: column;
+}
+.viewmore{
+    width: 100%;
+    height: 61px;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: #4D44B51A;
+    font-size: larger;
+    color: #4D44B5;
+}
+.viewmore:hover{
+    background-color: #4D44B5;
+    color: #FFFFFF;
+}
+.viewmore:active{
+    background-color: #FFFFFF;
+    color: #4D44B5;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #4D44B5;
+    text-decoration: none;
+}
+.page1{
+    background-color: #FFFFFF;
+    color: #4D44B5;
+}
